@@ -1,21 +1,30 @@
+body{
+    margin: 0;
+}
+
+#nav{
+    padding: 5px 5px;
+}
+
 #topmenu{
     margin-top: -20px;
     display: flex;
     justify-content :space-between; 
     align-items: center;
-    padding: 0 5px;
+    padding: 0 10px;
 
 }
 
 .topmenu__title{
+    margin-top: 10px;
     font-size: 30px;
     font-weight: bold;
 }
 
 .topmenu__icons{
-    width: 25%;
+    width: 40%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .friends__info{
@@ -88,4 +97,67 @@
 
 .friends__channellist__right{
     opacity: 0.5;
+}
+
+.friends__bottommenu{
+    height: 70px;
+    width: 645px;
+    position: fixed;
+    z-index: 99;
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.friends__bottommenu__icon{
+    position: relative;
+}
+
+.friends__bottommenu__icon--cnt{
+    position: absolute;
+    left: 20px;
+    top: -13px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+
+.friends__bottommenu__icon--ellipsis{
+    position:absolute;
+    border-radius: 50px;
+    width: 5px;
+    height: 5px;
+    right: -5px;
+    top: -3px;
+    background-color: red;
+}
+
+@keyframes hideSplashScreen{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+#splash-screen{
+    background-color: #007400;
+    position: absolute;
+    z-index: 9999;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 132px;
+    animation: hideSplashScreen 1s ease-in-out forwards;
+    animation-delay: 2s;
 }

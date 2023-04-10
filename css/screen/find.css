@@ -1,0 +1,136 @@
+body{
+   
+}
+
+.find__topmenu{
+    margin-top: -20px;
+    display: flex;
+    justify-content :space-between; 
+    align-items: center;
+    padding: 0 20px;
+    margin: 0 15px;
+
+}
+
+.findtopmenu__title{
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.findtopmenu__icons{
+    position: relative;
+    margin-right: 5px;
+    width: 15%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.find__icon--ellipsis{
+    position:absolute;
+    border-radius: 50px;
+    width: 4px;
+    height: 4px;
+    right: -10px;
+    top: -16px;
+    background-color: red;
+}
+
+.chats__findmenu{
+    margin: 0 15px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    
+}
+
+.findmenu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.findmenu--text{
+    text-align: center;
+    width: 80px;
+    margin-top: 30px;
+}
+
+.recommend{
+    opacity: 0.5;
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-bottom: 100px;
+}
+
+.recommendf{
+    margin: 0 15px;
+    padding-bottom: 120px;
+    opacity: 0.5;
+    text-align: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.friends__openchats{
+    margin: 0 15px;
+}
+
+.friends__openchat{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.friends__openchat__left--title{
+    font-weight: bold;
+}
+
+.friends__openchat__left--tags{
+    opacity: 0.5;
+    margin-bottom: 5px;
+}
+
+.friends__openchat__left--img{
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    margin-right: 5px;
+}
+
+.friends__openchat__left--member{
+    display: flex;
+    align-items: center;
+}
+
+.membercnt{
+    opacity: 0.5;
+}
+
+.active{
+    color: purple;
+}
+
+
+.friends__openchat__right{
+    position: relative;
+}
+
+.friends__openchat__right--img{
+    width: 100px;
+    height: 90px;
+    border-radius: 10px;
+}
+
+.friends__openchat__right--heart{
+    position: absolute;
+    top: 65px;
+    right: 5px;
+    opacity: 0.7;
+    width: 70px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    text-align: center;
+}

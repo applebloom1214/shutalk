@@ -1,0 +1,135 @@
+
+.more__topmenu{
+    display: flex;
+    justify-content :space-between; 
+    align-items: center;
+    padding: 0 20px;
+    margin: 0 15px;
+    margin-top: -40px;
+
+}
+
+.moretopmenu__title{
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.moretopmenu__icons{
+    position: relative;
+    margin-right: 5px;
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.more__icon--ellipsis{
+    position:absolute;
+    border-radius: 50px;
+    width: 4px;
+    height: 4px;
+    right: -10px;
+    top: -5px;
+    background-color: red;
+}
+
+.more__profile{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px;
+    margin-left: 30px;
+    height: 130px;
+}
+
+.more__profile--name{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 15px;
+}
+
+.more__photo{
+    width: 80px;
+    height: 80px;
+    border-radius: 25px;
+}
+
+.more__profile--left{
+    display: flex;
+    align-items: center;
+}
+
+.more__profile--phone{
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    margin-left: 12px;
+}
+
+.phonenumber{
+    opacity: 0.5;
+}
+
+.redicon{
+    margin-top: 5px;
+    font-size: 11px;
+    margin-left: 5px;
+    text-align: center;
+    color: red;
+    width: 15px;
+    height: 15px;
+    border-radius: 50px;
+    border: 1px solid red;
+}
+
+.more__findmenu{
+    margin: 0 15px;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    
+}
+
+.moremenu{
+    padding-bottom: 30px;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.moremenu--text{
+    text-align: center;
+    width: 80px;
+    margin-top: 30px;
+}
+
+.suggestions{
+    margin: 0 15px;
+    margin-top: 20px;
+}
+
+.apps{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 35px;
+    margin-top: 25px;
+}
+
+.appicon{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.app{
+    text-align: center;
+}
+
+.apptext{
+    opacity: 0.5;
+}
